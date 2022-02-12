@@ -1,4 +1,4 @@
-import './welcome.css'
+import './greeting.css'
 
 export default function Greeting() {
   const currentHour = new Date().getHours();
