@@ -2,7 +2,7 @@ export default function FavoritesList({favorites}) {
   return(
     <ol>
       {favorites.map((favorite, index) => {
-        return <li id={index}>{favorite}</li>
+        return <li key={index}>{favorite}</li>
       })}
     </ol>
   )
